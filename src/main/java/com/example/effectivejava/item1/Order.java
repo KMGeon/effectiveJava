@@ -10,8 +10,6 @@ public class Order {
 
     }
 
-
-
     public static Order primeOrder(Product product) {
         Order order = new Order();
         order.urgent = true;
